@@ -33,24 +33,26 @@ export default function Home() {
         <div className="w-full max-w-xl bg-white rounded-xl shadow-lg p-8">
           <h2 className="text-2xl mb-4">Formulário de Financiamento</h2>
           <div className="flex flex-col gap-4">
-            <button
-              className="bg-blue-500 text-white py-3 rounded hover:bg-blue-600"
-              onClick={() => handleAnswer(1)}
-            >
-              Argentina
-            </button>
-            <button
-              className="bg-blue-500 text-white py-3 rounded hover:bg-blue-600"
-              onClick={() => handleAnswer(2)}
-            >
-              México
-            </button>
-            <button
-              className="bg-blue-500 text-white py-3 rounded hover:bg-blue-600"
-              onClick={() => handleAnswer(3)}
-            >
-              Venezuela
-            </button>
+          
+          <input
+            type="text"
+            className="bg-blue-500 text-white py-3 rounded hover:bg-blue-600 text-silver-600 px-3"
+          />
+          
+          <input
+            type="text"
+            className="bg-blue-500 text-white py-3 rounded hover:bg-blue-600 text-silver-600 px-3"
+          />
+          
+          <input
+          type="text"
+          className="bg-blue-500 text-white py-3 rounded hover:bg-blue-600 text-silver-600 px-3"
+          />
+          
+          <input
+          type="text"
+          className="bg-blue-500 text-white py-3 rounded hover:bg-blue-600 text-silver-600 px-3"
+          />
           </div>
           {result && <div className="mt-6 text-lg font-semibold">{result}</div>}
         </div>
